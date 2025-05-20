@@ -1,43 +1,22 @@
-# 🧱 Assignment 1: Design Your Own Class!
+# OOP Assignment: Class Design & Polymorphism
 
-This repository contains my solution for **Assignment 1** where I designed my own classes in Python. The assignment is split into two parts: building a custom class and applying polymorphism.
+This repository contains my Object-Oriented Programming (OOP) assignment for the task:
+- Design a class with attributes and methods.
+- Demonstrate polymorphism with vehicles and actions (move).
 
-## 📌 Overview
+## Code Breakdown
 
-The assignment includes two activities:
+### Assignment 1: Smartphone Class
+- A `Smartphone` class with attributes like `brand`, `model`, `storage`, and `battery_life`.
+- A `GamingSmartphone` subclass that adds more specific features like cooling system and refresh rate.
 
----
+### Assignment 2: Polymorphism Challenge
+- A `Vehicle` base class with a `move()` method.
+- Derived classes like `Car`, `Plane`, and `Boat`, each implementing `move()` in its own way.
 
-## 🏗️ **Part 1: Design Your Own Class**
-
-I designed a custom class that represents a concept of my choice. In this part, I:
-- Defined a class with relevant **attributes** (properties).
-- Created **methods** (functions) to interact with or modify the object's state.
-- Used the **constructor (`__init__`)** to initialize objects with **unique values**.
-- Implemented **inheritance** and applied concepts of **encapsulation** and **polymorphism**.
-
-> The goal was to demonstrate an understanding of object-oriented principles by creating a class with clear functionality and relationships.
-
----
-
-## 🎭 **Activity 2: Polymorphism Challenge!**
-
-In this activity, I implemented polymorphism by creating multiple classes that share a common method name but behave differently depending on the class type.
-
-For example:
-- **Car** and **Plane** both implement the `move()` method, but they behave differently:
-  - `Car.move()` prints "Driving 🚗"
-  - `Plane.move()` prints "Flying ✈️"
-
-This demonstrates the concept of **polymorphism** by having different classes with the same method name but different implementations.
-
----
-
-## 🚀 How to Run
-
-1. Clone this repository or download the project files.
-2. Open the Python files in your preferred IDE or text editor.
-3. Run the main Python script to see the classes and polymorphism in action!
+## How to Run
+1. Clone this repository.
+2. Run the `oop_assignment.py` file in your local Python environment.
 
 ```bash
-python main.py
+python oop_assignment.py
